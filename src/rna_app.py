@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pickle
+import joblib
 import re
 
 # Page configuration
@@ -15,10 +15,9 @@ st.set_page_config(
 @st.cache_resource
 def load_model():
     try:
-        with open(r'models/rna_model.joblib', 'rb') as f:
-            model = pickle.load(f)
-        with open(r'models/rna_scaler.joblib', 'rb') as f:
-            scaler = pickle.load(f)
+       
+        model = joblib.load('models/rna_model.joblib')
+        scaler = joblib.load('models/rna_scaler.joblib')
         return model, scaler
     except FileNotFoundError:
         return None, None
