@@ -1,0 +1,42 @@
+How they relate to stability:
+
+Length ↑ = Stability ↓ (longer = harder to fold correctly)
+GC Content ↑ = Stability ↑ (G-C pairs have 3 hydrogen bonds vs A-U's 2)
+MFE (more negative) = Stability ↑ (lower energy = more thermodynamically favorable)
+Stems = Stability ↑ (paired regions hold structure together)
+Loops/Bulges ↑ = Stability ↓ (unpaired regions = weak points)
+
+Physical basis:
+Stable RNA = tightly folded structure that doesn't fall apart
+
+More base pairing (stems) = more hydrogen bonds = harder to unfold
+Lower free energy (MFE) = thermodynamically stable
+Compact structure (short, high GC) = less likely to misfold
+
+Model learns: Which combination of these features = stable vs unstable RNA
+------------------------------------------------------
+GC_Content: Out of total bases (G+C+A+U)
+
+0.60 = 60% of all bases are G or C
+
+
+Avg_Stem_Length: Average number of base pairs in each stem
+
+If 3 stems with lengths 6, 8, 10 → avg = 8
+
+
+Paired_Bases_Pct: Percentage of bases that are paired (in stems)
+
+70% = 70 out of 100 bases are in stems, 30% in loops
+
+
+MFE (Minimum Free Energy): From RNAfold software
+
+Calculates thermodynamic energy of most stable fold
+Based on nearest-neighbor model (empirical values)
+
+
+Ensemble_FE: Average energy across ALL possible structures
+
+RNA can fold multiple ways
+MFE = best structure, Ensemble = average of all
