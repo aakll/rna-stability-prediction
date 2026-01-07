@@ -15,9 +15,9 @@ st.set_page_config(
 @st.cache_resource
 def load_model():
     try:
-        with open(r'models/rna_model.pkl', 'rb') as f:
+        with open(r'models/rna_model.joblib', 'rb') as f:
             model = pickle.load(f)
-        with open(r'models/rna_scaler.pkl', 'rb') as f:
+        with open(r'models/rna_scaler.joblib', 'rb') as f:
             scaler = pickle.load(f)
         return model, scaler
     except FileNotFoundError:
