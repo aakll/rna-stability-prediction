@@ -152,7 +152,6 @@ def main():
             GUGUUCGAUCCACAGAAUUCGCACCA
             ```
             
-            **Note:** Sequences 18-200 nt work best
             """)
         
         if predict_button:
