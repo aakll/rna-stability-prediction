@@ -8,11 +8,11 @@ This project investigates whether RNA secondary structure features alone can pre
 
 This project implements a hypothesis-driven computational workflow combining RNA structural analysis, feature-based machine learning, and regulatory RNA characterization:
 
-- **Dataset generation:** Generated 200 RNA sequences across 5 regulatory RNA types with diverse structural properties using AI model Claude AI, as a proof-of-concept dataset.
+- **Dataset generation:** Collected 200 RNA sequences across 5 regulatory RNA types from Rfam & miRBase, and generated features using ViennaRNA (RNAfold).
 - **Feature engineering:** Extracted secondary structure features including length, GC content, stems, loops, bulges, and minimum free energy (MFE)
 - **Machine learning:** Trained a Random Forest regression model to predict RNA structural stability
 - **Regulatory RNA analysis:**
-  - Identified miRNAs as most stable regulatory RNAs (mean stability: 0.810), consistent with their regulatory roles.
+  - Identified tRNAs as most stable regulatory RNAs (mean stability: 0.686).
   - Characterized structural patterns across different RNA classes
   - Demonstrated length and MFE as primary stability predictors
 - **Interactive application:** Developed end-to-end pipeline accepting RNA sequences and outputting stability predictions
@@ -29,10 +29,10 @@ Can RNA secondary structure features reliably predict structural stability, and 
 
 | Metric           | Value       |
 |------------------|-------------|
-| R² (test)        | 0.683       |
-| RMSE             | 0.107       |
-| MAE              | 0.077       |
-| CV R² (5-fold)   | 0.799 ± 0.068 |
+| R² (test)        | 0.968       |
+| RMSE             | 0.044       |
+| MAE              | 0.033       |
+| CV R² (5-fold)   | 0.885       |
 
 The model demonstrates that structural features can capture substantial variance in RNA stability, supporting their predictive utility for regulatory RNA analysis and synthetic biology applications.
 
@@ -60,6 +60,7 @@ This workflow emphasizes the practical application of ML in regulatory genomics 
 ```text
 rna-structure-prediction/
 ├── data/
+│   └──raw/                          # raw RNA sequences and their IDs in FASTA form
 │   └── rna_structure_data.csv       # Dataset (200 RNA sequences)
 ├── models/
 │   ├── rna_model.joblib             # Trained Random Forest model
@@ -91,10 +92,8 @@ By streamlining RNA engineering workflows, this tool supports the development of
 ---
 ## Limitations and Future Work
 
-  - Dataset simulated by an AI model based on published RNA characteristics 
-  - Simplified structure prediction (production would integrate RNAfold/ViennaRNA)
   - Limited to secondary structure features (excludes tertiary interactions)
-  - **Integrate real RNA structure databases** (RNA STRAND, RNAcentral)
+  - Validation & Data expansion 
 
 ---
 ## Author
