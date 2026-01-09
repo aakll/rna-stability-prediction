@@ -1,0 +1,82 @@
+>cel-let-7-5p MIMAT0000001 Caenorhabditis elegans let-7-5p
+UGAGGUAGUAGGUUGUAUAGUU
+>cel-let-7-3p MIMAT0015091 Caenorhabditis elegans let-7-3p
+CUAUGCAAUUUUCUACCUUACC
+>cel-lin-4-5p MIMAT0000002 Caenorhabditis elegans lin-4-5p
+UCCCUGAGACCUCAAGUGUGA
+>cel-lin-4-3p MIMAT0015092 Caenorhabditis elegans lin-4-3p
+ACACCUGGGCUCUCCGGGUACC
+>cel-miR-1-5p MIMAT0020301 Caenorhabditis elegans miR-1-5p
+CAUACUUCCUUACAUGCCCAUA
+>cel-miR-1-3p MIMAT0000003 Caenorhabditis elegans miR-1-3p
+UGGAAUGUAAAGAAGUAUGUA
+>cel-miR-2-5p MIMAT0020302 Caenorhabditis elegans miR-2-5p
+CAUCAAAGCGGUGGUUGAUGUG
+>cel-miR-2-3p MIMAT0000004 Caenorhabditis elegans miR-2-3p
+UAUCACAGCCAGCUUUGAUGUGC
+>cel-miR-34-5p MIMAT0000005 Caenorhabditis elegans miR-34-5p
+AGGCAGUGUGGUUAGCUGGUUG
+>cel-miR-34-3p MIMAT0015093 Caenorhabditis elegans miR-34-3p
+ACGGCUACCUUCACUGCCACCC
+>cel-miR-35-5p MIMAT0020303 Caenorhabditis elegans miR-35-5p
+UGCUGGUUUCUUCCACAGUGGUA
+>cel-miR-35-3p MIMAT0000006 Caenorhabditis elegans miR-35-3p
+UCACCGGGUGGAAACUAGCAGU
+>cel-miR-36-5p MIMAT0020304 Caenorhabditis elegans miR-36-5p
+CGCCAAUUUUCGCUUCAGUGCUA
+>cel-miR-36-3p MIMAT0000007 Caenorhabditis elegans miR-36-3p
+UCACCGGGUGAAAAUUCGCAUG
+>cel-miR-37-5p MIMAT0015094 Caenorhabditis elegans miR-37-5p
+UGUGGGUGUCCGUUGCGGUGCUA
+>cel-miR-37-3p MIMAT0000008 Caenorhabditis elegans miR-37-3p
+UCACCGGGUGAACACUUGCAGU
+>cel-miR-38-5p MIMAT0020305 Caenorhabditis elegans miR-38-5p
+UCCGGUUUUUUCCGUGGUGAUA
+>cel-miR-38-3p MIMAT0000009 Caenorhabditis elegans miR-38-3p
+UCACCGGGAGAAAAACUGGAGU
+>cel-miR-39-5p MIMAT0020306 Caenorhabditis elegans miR-39-5p
+AGCUGAUUUCGUCUUGGUAAUA
+>cel-miR-39-3p MIMAT0000010 Caenorhabditis elegans miR-39-3p
+UCACCGGGUGUAAAUCAGCUUG
+>cel-miR-40-5p MIMAT0020307 Caenorhabditis elegans miR-40-5p
+AGUGGAUGUAUGCCAUGAUGAUA
+>cel-miR-40-3p MIMAT0000011 Caenorhabditis elegans miR-40-3p
+UCACCGGGUGUACAUCAGCUAA
+>cel-miR-41-5p MIMAT0020770 Caenorhabditis elegans miR-41-5p
+GGUGGUUUUUCUCUGCAGUGAUA
+>cel-miR-41-3p MIMAT0000012 Caenorhabditis elegans miR-41-3p
+UCACCGGGUGAAAAAUCACCUA
+>cel-miR-42-5p MIMAT0015095 Caenorhabditis elegans miR-42-5p
+GUGGGUGUUUGCUUUUUCGGUGAAG
+>cel-miR-42-3p MIMAT0000013 Caenorhabditis elegans miR-42-3p
+UCACCGGGUUAACAUCUACAGA
+>cel-miR-43-5p MIMAT0020308 Caenorhabditis elegans miR-43-5p
+GACAUCAAGAAACUAGUGAUUAUG
+>cel-miR-43-3p MIMAT0000014 Caenorhabditis elegans miR-43-3p
+UAUCACAGUUUACUUGCUGUCGC
+>cel-miR-44-5p MIMAT0020771 Caenorhabditis elegans miR-44-5p
+CUGGAUGUGCUCGUUGGUCAUA
+>cel-miR-44-3p MIMAT0000015 Caenorhabditis elegans miR-44-3p
+UGACUAGAGACACAUUCAGCU
+>cel-miR-45-5p MIMAT0020772 Caenorhabditis elegans miR-45-5p
+CUGGAUGUGCUCGUUAGUCAUA
+>cel-miR-45-3p MIMAT0000016 Caenorhabditis elegans miR-45-3p
+UGACUAGAGACACAUUCAGCU
+>cel-miR-46-5p MIMAT0015096 Caenorhabditis elegans miR-46-5p
+AAGAGAGCCGUCUAUUGACAGU
+>cel-miR-46-3p MIMAT0000017 Caenorhabditis elegans miR-46-3p
+UGUCAUGGAGUCGCUCUCUUCA
+>cel-miR-47-5p MIMAT0015097 Caenorhabditis elegans miR-47-5p
+AAGAGAGCAGUCUAUUGACAGU
+>cel-miR-47-3p MIMAT0000018 Caenorhabditis elegans miR-47-3p
+UGUCAUGGAGGCGCUCUCUUCA
+>cel-miR-48-5p MIMAT0000019 Caenorhabditis elegans miR-48-5p
+UGAGGUAGGCUCAGUAGAUGCGA
+>cel-miR-48-3p MIMAT0015098 Caenorhabditis elegans miR-48-3p
+ACAUCCACCAGCCUAGCUCGCA
+>cel-miR-49-5p MIMAT0020309 Caenorhabditis elegans miR-49-5p
+CGCAGUUUGUUGUGAUGUGCUCC
+>cel-miR-49-3p MIMAT0000020 Caenorhabditis elegans miR-49-3p
+AAGCACCACGAGAAGCUGCAGA
+>cel-miR-50-5p MIMAT0000021 Caenorhabditis elegans miR-50-5p
+UGAUAUGUCUGGUAUUCUUGGGUU
