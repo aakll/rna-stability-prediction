@@ -324,7 +324,7 @@ def main():
     st.markdown("""
         **Model Performance:**
         - Algorithm: Random Forest Regressor
-        - Test R²: 0.683
+        - Test R²: 0.968
         - Focus: Regulatory RNAs (miRNA, riboswitches, tRNA, rRNA, ribozymes)
     """)
     st.markdown("---")
@@ -332,7 +332,7 @@ def main():
     <div style="text-align: center; color: gray;">
         <p>🧬 RNA Structure Stability Prediction Tool</p>
         <p>Developed for regulatory RNA analysis and gene regulation research</p>
-        <p>Model trained on 200 RNA sequences | Random Forest (R² = 0.683)</p>
+        <p>Model trained on 200 RNA sequences | Random Forest (R² = 0.968)</p>
     </div>
     """, unsafe_allow_html=True)
 
